@@ -12,7 +12,7 @@ function Authentication() {
           placeholder="Enter OTP"
           className="p-2 border rounded"
         />
-        <button className="bg-blue-500 text-white p-2 rounded">Verify</button>
+        <button className="w-full bg-blue-500 text-white font-semibold p-2 rounded hover:bg-green-200/90 hover:text-green-700">Verify</button>
       </main>
     </div>
   );

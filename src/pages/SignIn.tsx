@@ -65,7 +65,7 @@ function SignIn() {
 
       <main className="flex-1 flex items-center justify-center w-full">
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
-          <div className="flex flex-col gap-4 bg-white p-5 rounded-lg shadow-lg inset-shadow-2xs max-w-sm w-80">
+          <div className="flex flex-col gap-4 bg-white p-5 rounded-lg shadow-lg inset-shadow-2xs max-w-sm w-80 md:w-100">
             <div className="flex flex-col items-center w-full">
               <h1 className="text-3xl tracking-wide font-bold ">Welcome</h1>
               <p className="text-xs text-center py-1">
